@@ -1,0 +1,31 @@
+<template>
+  <div class="min-h-screen  flex items-center justify-center">
+    <div class="max-w-7xl mx-auto lg:grid grid-cols-2 gap-8">
+      <!-- Left Section -->
+      <div class="space-y-8 p-4 lg:p-0">
+        <h1 class="text-5xl text-white font-black leading-tight">
+          Your Revolutionary <span class="text-blue-500">AI-Powered</span> Job Processing Platform
+        </h1>
+        <p class="text-white leading-loose text-lg font-light">
+          Our Goal is to provide Jobs to 20 Million Africa both home and abroad before 2025
+        </p>
+        <div class="flex space-x-4">
+          <a href="https://www.enforcatech.com/" target="_parent" class="bg-blue-500 text-white py-3 px-10 rounded-full shadow-lg">Start Here</a>
+        </div>
+      </div>
+
+      <!-- Right Section (Resume Card) -->
+      <div class="relative p-6 rounded-lg overflow-hidden">
+         <img src="@/assets/img/hero.png"  />
+      </div>
+    </div>
+  </div>
+</template>
+
+<script setup lang="ts">
+// No additional setup required for this layout
+</script>
+
+<style scoped>
+/* Add any specific styles here */
+</style>
