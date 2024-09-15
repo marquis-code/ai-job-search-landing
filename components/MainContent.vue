@@ -4,13 +4,13 @@
       <!-- Left Section -->
       <div class="space-y-8 p-4 lg:p-0">
         <h1 class="text-5xl text-white font-black leading-tight">
-          Your Revolutionary <span class="text-blue-500">AI-Powered</span> Job Processing Platform
+          The first <span class="text-blue-500">AI</span> Job application and job support platform.
         </h1>
         <p class="text-white leading-loose text-lg font-light">
-          Our Goal is to provide Jobs to 20 Million Africa both home and abroad before 2025
+          If you need real experience click here 
         </p>
         <div class="flex space-x-4">
-          <a href="https://www.enforcatech.com/" target="_parent" class="bg-blue-500 text-white py-3 px-10 rounded-full shadow-lg">Start Here</a>
+          <a href="https://www.enforcatech.com/mentee/login" target="_parent" class="bg-blue-500 text-white py-3 px-10 rounded-full shadow-lg">Start Here</a>
         </div>
       </div>
 

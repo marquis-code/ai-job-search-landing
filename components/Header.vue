@@ -17,24 +17,24 @@
 
       <!-- Navigation Links -->
       <nav class="hidden md:flex space-x-8">
-        <a href="#" class="text-[#000316] hover:text-blue-500 transition-colors">Schedule Consultation</a>
-        <a href="#" class="text-[#000316] hover:text-blue-500 transition-colors">Review Resume</a>
+        <a href="www.mentor-techies.com" class="text-[#000316] hover:text-blue-500 transition-colors">Mentorship</a>
+        <a href="https://www.enforcatech.com/mentee/login" class="text-[#000316] hover:text-blue-500 transition-colors">Need AI job application and suppon</a>
       </nav>
 
       <!-- Dashboard Button -->
-      <button class="hidden md:block bg-[#111D63] text-white py-3 text-sm px-4 rounded-full shadow-md hover:bg-blue-800 transition-colors">
-        My Dashboard
-      </button>
+      <a href="https://www.enforcatech.com/" class="hidden md:block bg-[#111D63] text-white py-3 text-sm px-4 rounded-full shadow-md hover:bg-blue-800 transition-colors">
+        Get Started
+      </a>
     </header>
 
     <!-- Mobile Dropdown Menu -->
     <div v-if="isMenuOpen" class="absolute top-16 left-0 w-screen z-50 md:hidden">
       <nav class="flex flex-col space-y-4 bg-white p-4 shadow-lg rounded-b-lg">
-        <a href="#" @click="closeMenu" class="text-[#000316] hover:text-blue-500 transition-colors">Schedule Consultation</a>
-        <a href="#" @click="closeMenu" class="text-[#000316] hover:text-blue-500 transition-colors">Review Resume</a>
-        <button @click="closeMenu" class="bg-[#111D63] text-white py-3 text-sm px-4 rounded-full shadow-md hover:bg-blue-800 transition-colors">
-          My Dashboard
-        </button>
+        <NuxtLink to="" @click="closeMenu" class="text-[#000316] hover:text-blue-500 transition-colors">Mentorship</NuxtLink>
+        <a ref="www.mentor-techies.com"  @click="closeMenu" class="text-[#000316] hover:text-blue-500 transition-colors">Need AI job application and support </a>
+        <a href="https://www.enforcatech.com/" @click.native="closeMenu" class="bg-[#111D63] text-white py-3 text-sm px-4 rounded-full shadow-md hover:bg-blue-800 transition-colors">
+          Get Started
+        </a>
       </nav>
     </div>
   </main>
