@@ -2,7 +2,7 @@
   <main class="bg-gradient-to-r from-white to-blue-50">
     <header class="flex items-center justify-between px-8 py-4 max-w-7xl mx-auto shadow-sm relative">
       <div class="flex items-center space-x-2">
-        <img src="@/assets/img/logo.png" alt="" class="h-16" />
+        <img src="@/assets/img/transparent2.png" alt="" class="h-16" />
       </div>
       <div class="md:hidden">
         <button @click="toggleMenu" class="focus:outline-none">

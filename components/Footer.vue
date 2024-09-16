@@ -12,18 +12,11 @@
           <div class="grid grid-cols-1 gap-8 sm:grid-cols-2">
             <div>
               <p>
-                <!-- <span class="text-xs uppercase tracking-wide text-gray-500"> Call us </span> -->
       
                 <a href="#" class="block text-lg font-medium text-gray-900 hover:opacity-75 ">
                     We are a mentorship community that helps talents get decent jobs in the United Kingdom, United States, and Africa.
                 </a>
               </p>
-      
-              <!-- <ul class="mt-8 space-y-1 text-sm text-gray-700">
-                <li>Monday to Friday: 10am - 5pm</li>
-                <li>Weekend: 10am - 3pm</li>
-              </ul> -->
-      
               <ul class="mt-8 flex gap-6">
                 <li>
                   <a
@@ -120,33 +113,7 @@
               </ul>
             </div>
       
-            <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
-              <!-- <div>
-                <p class="font-medium text-gray-900">Services</p>
-      
-                <ul class="mt-6 space-y-4 text-sm">
-                  <li>
-                    <a href="#" class="text-gray-700 transition hover:opacity-75"> 1on1 Coaching </a>
-                  </li>
-      
-                  <li>
-                    <a href="#" class="text-gray-700 transition hover:opacity-75"> Company Review </a>
-                  </li>
-      
-                  <li>
-                    <a href="#" class="text-gray-700 transition hover:opacity-75"> Accounts Review </a>
-                  </li>
-      
-                  <li>
-                    <a href="#" class="text-gray-700 transition hover:opacity-75"> HR Consulting </a>
-                  </li>
-      
-                  <li>
-                    <a href="#" class="text-gray-700 transition hover:opacity-75"> SEO Optimisation </a>
-                  </li>
-                </ul>
-              </div> -->
-      
+            <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">      
               <div>
                 <p class="font-medium text-gray-900">Get in touch</p>
       
