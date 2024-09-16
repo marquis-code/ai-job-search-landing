@@ -1,12 +1,9 @@
 <template>
   <main class="bg-gradient-to-r from-white to-blue-50">
     <header class="flex items-center justify-between px-8 py-4 max-w-7xl mx-auto shadow-sm relative">
-      <!-- Logo Section -->
       <div class="flex items-center space-x-2">
-        <img src="@/assets/icons/logo.svg" alt="GetreKruitd Logo" class="h-8" />
+        <img src="@/assets/img/logo.png" alt="" class="h-16" />
       </div>
-
-      <!-- Hamburger Menu for Mobile -->
       <div class="md:hidden">
         <button @click="toggleMenu" class="focus:outline-none">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -14,20 +11,14 @@
           </svg>
         </button>
       </div>
-
-      <!-- Navigation Links -->
       <nav class="hidden md:flex space-x-8">
         <a href="www.mentor-techies.com" class="text-[#000316] hover:text-blue-500 transition-colors">Mentorship</a>
         <a href="https://www.enforcatech.com/mentee/login" class="text-[#000316] hover:text-blue-500 transition-colors">Need AI job application and suppon</a>
       </nav>
-
-      <!-- Dashboard Button -->
       <a href="https://www.enforcatech.com/" class="hidden md:block bg-[#111D63] text-white py-3 text-sm px-4 rounded-full shadow-md hover:bg-blue-800 transition-colors">
         Get Started
       </a>
     </header>
-
-    <!-- Mobile Dropdown Menu -->
     <div v-if="isMenuOpen" class="absolute top-16 left-0 w-screen z-50 md:hidden">
       <nav class="flex flex-col space-y-4 bg-white p-4 shadow-lg rounded-b-lg">
         <NuxtLink to="" @click="closeMenu" class="text-[#000316] hover:text-blue-500 transition-colors">Mentorship</NuxtLink>

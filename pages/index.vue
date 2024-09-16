@@ -2,6 +2,7 @@
   <div :style="backgroundStyle" class="min-h-screen">
     <Header />
     <MainContent />
+    <Footer />
   </div>
 </template>
 
