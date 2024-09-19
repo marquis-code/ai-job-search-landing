@@ -2,6 +2,9 @@
   <div :style="backgroundStyle" class="min-h-screen">
     <Header />
     <MainContent />
+    <LogosSection />
+    <HeadlineSection />
+    <StepsSection />
     <Footer />
   </div>
 </template>
