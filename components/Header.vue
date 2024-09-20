@@ -1,8 +1,8 @@
 <template>
-  <main class="bg-gradient-to-r from-white to-blue-50">
+  <main class="bg-gradient-to-r ">
     <header class="flex items-center justify-between px-8 py-4 max-w-7xl mx-auto shadow-sm relative">
       <div class="flex items-center space-x-2">
-        <img src="@/assets/img/transparent2.png" alt="" class="h-16" />
+        <img src="@/assets/img/transparent2.png" alt="" class="h-20 w-20" />
       </div>
       <div class="md:hidden">
         <button @click="toggleMenu" class="focus:outline-none">
@@ -12,10 +12,10 @@
         </button>
       </div>
       <nav class="hidden md:flex space-x-8">
-        <a href="www.mentor-techies.com" class="text-[#000316] hover:text-blue-500 transition-colors">Mentorship</a>
-        <a href="https://www.enforcatech.com/mentee/login" class="text-[#000316] hover:text-blue-500 transition-colors">Need AI job application and suppon</a>
+        <a href="www.mentor-techies.com" class="text-white hover:text-blue-500 transition-colors">For Mentorship</a>
+        <a href="https://www.enforcatech.com/mentee/login" class="text-white hover:text-blue-500 transition-colors">For Job seekers</a>
       </nav>
-      <a href="https://www.enforcatech.com/" class="hidden md:block bg-[#111D63] text-white py-3 text-sm px-4 rounded-full shadow-md hover:bg-blue-800 transition-colors">
+      <a href="www.mentor-techies.com" class="hidden md:block bg-[#111D63] text-white py-3 text-sm px-4 rounded-full shadow-md hover:bg-blue-800 transition-colors">
         Get Started
       </a>
     </header>
@@ -23,7 +23,7 @@
       <nav class="flex flex-col space-y-4 bg-white p-4 shadow-lg rounded-b-lg">
         <NuxtLink to="" @click="closeMenu" class="text-[#000316] hover:text-blue-500 transition-colors">Mentorship</NuxtLink>
         <a ref="www.mentor-techies.com"  @click="closeMenu" class="text-[#000316] hover:text-blue-500 transition-colors">Need AI job application and support </a>
-        <a href="https://www.enforcatech.com/" @click.native="closeMenu" class="bg-[#111D63] text-white py-3 text-sm px-4 rounded-full shadow-md hover:bg-blue-800 transition-colors">
+        <a href="www.mentor-techies.com" @click.native="closeMenu" class="bg-[#111D63] text-white py-3 text-sm px-4 rounded-full shadow-md hover:bg-blue-800 transition-colors">
           Get Started
         </a>
       </nav>

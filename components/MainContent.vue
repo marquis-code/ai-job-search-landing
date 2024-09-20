@@ -3,13 +3,13 @@
     <div class="max-w-7xl mx-auto lg:grid grid-cols-2 gap-8">
       <div class="space-y-8 p-4 lg:p-0">
         <h1 class="text-3xl lg:text-5xl text-white font-black leading-tight">
-          The first <span class="text-blue-500">AI</span> job application and support platform.
+          First <span class="text-blue-500"> AI </span> job application and support platform.
         </h1>
         <p class="text-white leading-loose text-lg font-light">
-          If you need real experience, click here
+         Learn your dream job with personalized preparation and expert guidance aided with our AI-powered job processing platform
         </p>
         <div class="flex space-x-4">
-          <a href="https://www.enforcatech.com/mentee/login" target="_parent" class="bg-blue-500 text-white  py-2 lg:py-3 px-10 rounded-full shadow-lg">Start Here</a>
+          <a href="www.mentor-techies.com" target="_parent" class="bg-blue-500 text-white  py-2 lg:py-3 px-10 rounded-full shadow-lg">Start Here</a>
         </div>
       </div>
       <div class="relative p-6 rounded-lg overflow-hidden">
