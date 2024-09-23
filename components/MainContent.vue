@@ -9,7 +9,7 @@
          Learn your dream job with personalized preparation and expert guidance aided with our AI-powered job processing platform
         </p>
         <div class="flex space-x-4">
-          <a href="www.mentor-techies.com" target="_parent" class="bg-blue-500 text-white  py-2 lg:py-3 px-10 rounded-full shadow-lg">Start Here</a>
+          <a target="_blank" href="www.mentor-techies.com" class="bg-blue-500 text-white  py-2 lg:py-3 px-10 rounded-full shadow-lg">Start Here</a>
         </div>
       </div>
       <div class="relative p-6 rounded-lg overflow-hidden">

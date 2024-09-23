@@ -12,18 +12,18 @@
         </button>
       </div>
       <nav class="hidden md:flex space-x-8">
-        <a href="www.mentor-techies.com" class="text-white hover:text-blue-500 transition-colors">For Mentorship</a>
-        <a href="https://www.enforcatech.com/mentee/login" class="text-white hover:text-blue-500 transition-colors">For Job seekers</a>
+        <a target="_blank" href="www.mentor-techies.com" class="text-white hover:text-blue-500 transition-colors">For Mentorship</a>
+        <a target="_blank" href="https://www.enforcatech.com/mentee/login" class="text-white hover:text-blue-500 transition-colors">For Job seekers</a>
       </nav>
-      <a href="www.mentor-techies.com" class="hidden md:block bg-[#111D63] text-white py-3 text-sm px-4 rounded-full shadow-md hover:bg-blue-800 transition-colors">
+      <a target="_blank" href="www.mentor-techies.com" class="hidden md:block bg-[#111D63] text-white py-3 text-sm px-4 rounded-full shadow-md hover:bg-blue-800 transition-colors">
         Get Started
       </a>
     </header>
     <div v-if="isMenuOpen" class="absolute top-16 left-0 w-screen z-50 md:hidden">
       <nav class="flex flex-col space-y-4 bg-white p-4 shadow-lg rounded-b-lg">
         <NuxtLink to="" @click="closeMenu" class="text-[#000316] hover:text-blue-500 transition-colors">Mentorship</NuxtLink>
-        <a ref="www.mentor-techies.com"  @click="closeMenu" class="text-[#000316] hover:text-blue-500 transition-colors">Need AI job application and support </a>
-        <a href="www.mentor-techies.com" @click.native="closeMenu" class="bg-[#111D63] text-white py-3 text-sm px-4 rounded-full shadow-md hover:bg-blue-800 transition-colors">
+        <a target="_blank" href="www.mentor-techies.com"  @click="closeMenu" class="text-[#000316] hover:text-blue-500 transition-colors">Need AI job application and support </a>
+        <a target="_blank" href="www.mentor-techies.com" @click.native="closeMenu" class="bg-[#111D63] text-white py-3 text-sm px-4 rounded-full shadow-md hover:bg-blue-800 transition-colors">
           Get Started
         </a>
       </nav>
